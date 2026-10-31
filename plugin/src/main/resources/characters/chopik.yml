@@ -1,0 +1,20 @@
+id: chopik
+name: Чопик
+description: Частично заражён скалком. Правый глаз не видит. Варден больше не замечает его.
+memories:
+  - Ты помнишь, как лежишь на земле, а Варден уходит дальше.
+  - Ты помнишь долгое падение в неизвестность.
+  - Ты помнишь боль, но не помнишь, откуда она.
+  - Ты помнишь, как деревня исчезала в темноте.
+  - Ты помнишь, как очнулся и понял, что правый глаз не видит.
+  - Ты помнишь чужой голос, который будто стёр твою память.
+  - Ты помнишь, как скалк впервые коснулся твоей руки.
+familiar-sounds:
+  - minecraft:entity.warden.ambient
+  - minecraft:entity.warden.heartbeat
+  - minecraft:entity.warden.listening
+  - minecraft:block.sculk_sensor.clicking
+  - minecraft:block.sculk_sensor.clicking_active
+  - minecraft:block.sculk_catalyst.bloom
+  - minecraft:block.sculk_shrieker.shriek
+  - minecraft:entity.player.hurt

@@ -1,0 +1,36 @@
+plugins {
+	id "java"
+}
+
+group = "lorcopika"
+version = "1.0.0"
+
+repositories {
+	mavenCentral()
+	maven {
+		url = "https://repo.papermc.io/repository/maven-public/"
+	}
+}
+
+dependencies {
+	compileOnly "io.papermc.paper:paper-api:26.2.build.135-stable"
+}
+
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(25)
+	}
+}
+
+processResources {
+	inputs.property "version", project.version
+
+	filesMatching("plugin.yml") {
+		expand "version": project.version
+	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+	options.release = 25
+	options.encoding = "UTF-8"
+}

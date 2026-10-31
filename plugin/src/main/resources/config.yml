@@ -1,0 +1,47 @@
+debug: false
+features:
+  fragile_body: true
+  warden_ignore: true
+  fire_weakness: true
+  loud_sounds: true
+  random_darkness: true
+  infected_zone: true
+  nether_sickness: true
+  sense: true
+  sculk_spread: true
+  memories: true
+  familiar_sound: true
+params:
+  fragile_body:
+    max_health: 14.0
+  fire_weakness:
+    burn_multiplier: 1.5
+    damage_multiplier: 1.25
+  loud_sounds:
+    damage: 4.0
+    radius: 16.0
+    interval: 40.0
+  random_darkness:
+    min_interval: 1200.0
+    max_interval: 3600.0
+    duration: 200.0
+  infected_zone:
+    chance: 0.5
+    secondary_multiplier: 0.4
+    height_ratio: 0.6
+  nether_sickness:
+    start_seconds: 60.0
+    effect_interval: 200.0
+  sense:
+    radius: 16.0
+    mode: 0.0
+  sculk_spread:
+    radius: 10.0
+    max_blocks: 12.0
+  memories:
+    min_interval: 2400.0
+    max_interval: 7200.0
+  familiar_sound:
+    slow_duration: 60.0
+    slow_amplifier: 1.0
+players: {}
