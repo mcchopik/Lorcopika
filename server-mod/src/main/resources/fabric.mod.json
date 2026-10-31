@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "lorcopika",
+  "version": "${version}",
+  "name": "Lorcopika Server",
+  "description": "Server-side lore character mechanics and commands.",
+  "authors": [
+    "Lorcopika"
+  ],
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "lorcopika.LorcopikaMod"
+    ]
+  },
+  "mixins": [
+    "lorcopika.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "fabric-api": ">=0.161.0+26.2",
+    "minecraft": "~26.2",
+    "java": ">=25"
+  }
+}
